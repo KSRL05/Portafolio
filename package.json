@@ -1,0 +1,30 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Primer proyecto con Express",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSRL05/Portafolio.git"
+  },
+  "keywords": [
+    "Cv",
+    "Portafolio",
+    "NodeJS"
+  ],
+  "author": "Kevin Rivera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KSRL05/Portafolio/issues"
+  },
+  "homepage": "https://github.com/KSRL05/Portafolio#readme"
+}
