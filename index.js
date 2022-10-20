@@ -30,7 +30,9 @@ app.get('/datos', (req, res) => {
 app.get('/', (req, res) => {
   res.send('')
 })
-
+app.get('/info', (req, res) => {
+  res.render('info')
+})
 app.use((req,res,next) =>{
   res.status(404).sendFile(__dirname + '/public/404.html')
 })
