@@ -51,10 +51,10 @@
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
   width: 100%;
-  cursor: auto; }
+  cursor: pointer; }
 
 .mfp-ajax-cur {
-  cursor: progress; }
+  cursor: pointer; }
 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: -moz-zoom-out;
